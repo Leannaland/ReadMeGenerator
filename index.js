@@ -36,7 +36,7 @@ inquirer.prompt([
  },
 
  {
-    type: "input" ,
+    type: "checkbox" ,
     message: "Do you have any liscensing information?",
     name: "License",
     choices: [

@@ -1,11 +1,13 @@
 {
-	"name": "ReadMeGenerator",
-	"discription": "With this Repo a user can create a readme file using node JS",
-	"Table of Contents": "THis readme covers Installation, Usage, Lisence Info, Contributors, Tests and Questions. ",
-	"Installation": "Node.Js, Inquirer and fs ",
-	"Usage": "Generating a read with backend ",
-	"License": "n/a",
-	"Contributors": "Leanna Land ",
-	"Tests": "Application was not tested ",
-	"Questions": "What do you think? "
+	"name": "Readme Generator ",
+	"discription": "Generates a readme",
+	"Table of Contents": "Discription, installment, usage, liscenses",
+	"Installation": "none",
+	"Usage": "generating a new readme file using node js",
+	"License": [
+		"No License"
+	],
+	"Contributors": "Leannaland",
+	"Tests": "No ",
+	"Questions?": "Leannaland"
 }
