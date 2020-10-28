@@ -37,8 +37,13 @@ inquirer.prompt([
 
  {
     type: "input" ,
-    name: "License",
     message: "Do you have any liscensing information?",
+    name: "License",
+    choices: [
+       "MIT",
+       "BDS 3-clause",
+       "No License",
+    ]
  },
  {
     type: "input" ,
@@ -52,8 +57,8 @@ inquirer.prompt([
  },
  {
     type: "input" ,
-    name: "Questions",
-    message: "Do you want to leave any questions for the user?",
+    name: "Questions?",
+    message: "What is your Github Username?",
  },
 
 ]).then(function(data){
