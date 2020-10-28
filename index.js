@@ -9,17 +9,17 @@ inquirer.prompt([
    {
       type: "input",
       name: "name",
-      message: "What type of file is this? (Type 'README')",
+      message: "What is the name of this Repo?",
    }, 
     {
     type: "input" ,
     name: "discription",
-    message: "What does this repo do?",
+    message: "What does this Repo do?",
  },
 
  {
     type: "input" ,
-    name: "Table f Content",
+    name: "Table of Contents",
     message: "What do you cover in this ReadMe?",
  },
 
@@ -57,8 +57,8 @@ inquirer.prompt([
  },
 
 ]).then(function(data){
-    var filename = data.name.toLowerCase().split(' ').join('') + ".md";;
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err){
+    //var filename = data.name.toLowerCase().split(' ').join('');
+    fs.writeFile("Readme.Md", JSON.stringify(data, null, '\t'), function(err){
         if (err) {
             return console.log(err);
         }
